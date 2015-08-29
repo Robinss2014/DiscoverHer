@@ -13,6 +13,7 @@
 		<link href="css/styles.css" rel="stylesheet">
 	</head>
 	<body>
+
 <div class="navbar-wrapper">
   <div class="container">
     <div class="navbar navbar-inverse navbar-static-top">
@@ -118,17 +119,21 @@
 
 
   <!-- START THE FEATURETTES -->
+  <div id="target">Loading..</div>
+  <script id="template" type="x-tmpl-mustache">
+    <hr class="featurette-divider" id="">
+  
+    <div class="featurette">
+        <a href="{{url}}">
+        <img class="feature-orient" src="{{image}}">
+      </a>
+      <h2 class="featurette-heading">{{name}}: <span class="text-muted small">{{location}}</span></h2>
+      <p class="lead">{{keywords}}</p>
+    </div>
+  </script>
 
   <hr class="featurette-divider" id="a">
-			$.each(data, function(i, f) {
-				<div class="featurette">
-					<a href={{f.url}}>
-						<img class="featurette-image img-circle pull-right" src={{f.image}}>
-					</a>
-					<h2 class="featurette-heading">{{f.name}} <span class="text-muted">{{f.date}}</span></h2>
-					<p class="lead">{{f.location}}</p>
-				</div>
-			});
+  
   <div class="featurette">
 		<a href="http://www.sxsw.com/interactive/news/2015/tracy-chou-talks-increasing-diversity-tech-ecosystem-interview">
     	<img class="feature-orient" src="http://www.eastside-online.org/wp-content/uploads/2015/03/SXSW.jpg">
@@ -167,6 +172,7 @@
 </div><!-- /.container -->
 	<!-- script references -->
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mustache.js/2.1.3/mustache.js"></script>
 		<script src="js/bootstrap.min.js"></script>
 		<script src="data.js"></script>
 	</body>

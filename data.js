@@ -180,3 +180,9 @@ var data = [
         "image": "http://www.spacefoundation.org/sites/default/files/styles/top-image/public/top-image/topimage_664x360-NEWLOGO_7.jpg?itok=zOMqhCe5"
     }
 ]
+
+$.getJSON('data.json', function(data) {
+    var events = $('#template').html();
+    var html = Mustache.to_html(template, data);
+    $('#target').html(html);
+});
