@@ -1,0 +1,54 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>DiscoverHer</title>
+	<!-- styles -->
+	<link rel="stylesheet" type="text/css" href="../css/bootstrap.min.css" />
+	<link rel="stylesheet" type="text/css" href="../css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/styles.css" />
+	<!-- libraries -->
+	<script type="text/javascript" src="../js/lib/jquery-2.1.4.min.js"></script>
+	<script type="text/javascript" src="../js/lib/mustache.js"></script>
+    <script type="text/javascript" src="http://www.parsecdn.com/js/parse-1.5.0.min.js"></script>
+	<!-- js -->
+	<script type="text/javascript" src="js/signupView.js"></script>
+</head>
+<body>
+	<!-- Main View -->
+	<div class="container">
+		<form class="form-horizontal" action='' method="POST">
+		  <fieldset>
+		    <div id="legend">
+		      <legend class="">Sign Up</legend>
+		    </div>
+		    <div class="control-group">
+		      <!-- Username -->
+		      <label class="control-label"  for="username">Username</label>
+		      <div class="controls">
+		        <input type="text" id="username" name="username" placeholder="" class="input-xlarge">
+		        <p class="help-block">Username can contain any letters or numbers, without spaces</p>
+		      </div>
+		    </div>
+		 
+		    <div class="control-group">
+		      <!-- E-mail -->
+		      <label class="control-label" for="email">E-mail</label>
+		      <div class="controls">
+		        <input type="text" id="email" name="email" placeholder="" class="input-xlarge">
+		        <p class="help-block">Please provide your E-mail</p>
+		      </div>
+		    </div>
+		 
+		    <div class="control-group">
+		      <!-- Password-->
+		      <label class="control-label" for="password">Password</label>
+		      <div class="controls">
+		        <input type="password" id="password" name="password" placeholder="" class="input-xlarge">
+		        <p class="help-block">Password should be at least 4 characters</p>
+		      </div>
+	</div>
+</body>
+</html>
