@@ -203,6 +203,8 @@ var aspireData = window.aspireData = [
 ];
 
 $(function(){
+	loadDiscoverData();
+	$('#discoverList img').addClass('selected');
 
   $('#discoverList img').click(function(){
 
@@ -218,11 +220,13 @@ $(function(){
   });
 
  function loadDiscoverData(){
+ 	$('#title').html("<h1>Discover Data</h2>");
  	 var template = $('#discover-template').html();
      var html = Mustache.render(template, discoverData);
      $('#target').html(html);
  }
  function loadAspireData(){
+ 	$('#title').html("<h1>Aspire Data</h2>");
  	 var template = $('#aspire-template').html();
      var html = Mustache.render(template, aspireData);
      $('#target').html(html);
