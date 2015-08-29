@@ -179,7 +179,28 @@ var events = window.events = [
         "keywords": "space, STEM, robotics",
         "image": "http://www.spacefoundation.org/sites/default/files/styles/top-image/public/top-image/topimage_664x360-NEWLOGO_7.jpg?itok=zOMqhCe5"
     }
-]
+];
+
+var aspireData = window.aspireData = [
+  {
+    "title":"Interested in Diversity in Tech?",
+    "description": "Check out this SXSW interview with Tracy Chou",
+    "image":"http://www.eastside-online.org/wp-content/uploads/2015/03/SXSW.jpg",
+    "url": "http://www.sxsw.com/interactive/news/2015/tracy-chou-talks-increasing-diversity-tech-ecosystem-interview"
+  },
+  {
+    "title":"Meet Joelle Emerson",
+    "description": "Learn more about how Paradigm is tackling diversity",
+    "image":"https://tctechcrunch2011.files.wordpress.com/2015/08/pulse-wednesday-166-e1440201799442.jpg",
+    "url": "http://techcrunch.com/2015/08/22/meet-joelle-emerson-the-startup-ceo-helping-slack-pinterest-and-airbnb-tackle-diversity/"
+  },
+  {
+    "title":"Women in Technology: Why It's Good for Everyone",
+    "description":"Here's a quick read about the importance of diversity",
+    "image":"http://blogs-images.forbes.com/meghanbiro/files/2015/04/8535851823_12fdc1fb46_b-e1430141731567.jpg",
+    "url": "http://www.forbes.com/sites/meghanbiro/2015/04/27/women-in-technology-why-its-good-for-everyone/"
+  }
+];
 
 $(function(){
     var template = $('#template').html();
