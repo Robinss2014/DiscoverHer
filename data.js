@@ -1,4 +1,4 @@
-var data = [
+var events = window.events = [
     {
         "name": "Lead the Way Convention",
         "url": "www.girlscoutsnorcal.org/girls/leadership/lead-the-way-m",
@@ -181,7 +181,7 @@ var data = [
     }
 ]
 
-$.getJSON('data.json', function(data) {
+$(function(){
     var events = $('#template').html();
     var html = Mustache.to_html(template, data);
     $('#target').html(html);
