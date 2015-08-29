@@ -1,7 +1,7 @@
 var discoverData = window.discoverData = [
     {
         "name": "Lead the Way Convention",
-        "url": "www.girlscoutsnorcal.org/girls/leadership/lead-the-way-m",
+        "url": "https://www.girlscoutsnorcal.org/girls/leadership/lead-the-way-m",
         "date": "Jan 29-36, 2016",
         "time": "n/a",
         "location": "Milpidas, CA",
@@ -10,7 +10,7 @@ var discoverData = window.discoverData = [
     },
     {
         "name": "Just for us Teen Expo",
-        "url": "www.eventbrite.com/e/jsut-for-us-girls-teen-expo-san-francisco-tickets-18172822401?aff=es2",
+        "url": "https://www.eventbrite.com/e/jsut-for-us-girls-teen-expo-san-francisco-tickets-18172822401?aff=es2",
         "date": "2/6/2016",
         "time": "12pm-4pm",
         "location": "San Francisco, CA",
@@ -19,7 +19,7 @@ var discoverData = window.discoverData = [
     },
     {
         "name": "Summer of Code 2015",
-        "url": "www.blackgirlscode.com/programsevents.html",
+        "url": "https://www.blackgirlscode.com/programsevents.html",
         "date": "Aug 3-7, 2015",
         "time": "n/a",
         "location": "Bay Area, CA",
@@ -28,7 +28,7 @@ var discoverData = window.discoverData = [
     },
     {
         "name": "Women of Color Stem Career Panel",
-        "url": "www.blackgirlscode.com/programsevents.html",
+        "url": "https://www.blackgirlscode.com/programsevents.html",
         "date": "8/22/2015",
         "time": "10am-12pm",
         "location": "209 Joralemon St., Brooklyn, NY",
@@ -37,7 +37,7 @@ var discoverData = window.discoverData = [
     },
     {
         "name": "Robot Expo!",
-        "url": "www.blackgirlscode.com/programsevents.html",
+        "url": "https://www.blackgirlscode.com/programsevents.html",
         "date": "9/19/2015",
         "time": "n/a",
         "location": "Memphis, TN",
@@ -46,7 +46,7 @@ var discoverData = window.discoverData = [
     },
     {
         "name": "CoderDojo Twitter",
-        "url": "zen.coderdojo.com/dojo/81",
+        "url": "https://zen.coderdojo.com/dojo/81",
         "date": "9/29/2015",
         "time": "11am-11pm",
         "location": "26-98 10th St, San Francisco, CA",
@@ -64,7 +64,7 @@ var discoverData = window.discoverData = [
     },
     {
         "name": "Project SYNCERE emerging engineer program",
-        "url": "www.projectsyncere.org/inner.asp?ItemID=25",
+        "url": "https://www.projectsyncere.org/inner.asp?ItemID=25",
         "date": "Oct 3- Dec 19, 2015",
         "time": "9am-11:30pm",
         "location": "University of Illinois, Chicago",
@@ -73,7 +73,7 @@ var discoverData = window.discoverData = [
     },
     {
         "name": "Fashion design + STEM learning workshop",
-        "url": "www.visitftcollins.com/events/fashion-design-stem-learning-workshop-teen-girls",
+        "url": "https://www.visitftcollins.com/events/fashion-design-stem-learning-workshop-teen-girls",
         "date": "4/14/2014",
         "time": "12-3:30pm",
         "location": "239 Linden St, Fort Collins, CO",
@@ -91,7 +91,7 @@ var discoverData = window.discoverData = [
     },
     {
         "name": "Engineering Design Everyday, All Summer Long",
-        "url": "events.berkeley.edu/index.php/calender/sn/LHS.html?event_ID=90143&date=2015-08-28",
+        "url": "https://events.berkeley.edu/index.php/calender/sn/LHS.html?event_ID=90143&date=2015-08-28",
         "date": "Jun 13- Aug 30",
         "time": "10am-3pm",
         "location": "Lawrence Hall of Science, Berkeley ",
@@ -100,7 +100,7 @@ var discoverData = window.discoverData = [
     },
     {
         "name": "Imagine the Sky Tonight: Planetarium Show",
-        "url": "events.berkeley.edu/index.php/calender/sn/LHS.html?event_ID=90144&date=2015-08-28",
+        "url": "https://events.berkeley.edu/index.php/calender/sn/LHS.html?event_ID=90144&date=2015-08-28",
         "date": "Jun 13- Aug 30",
         "time": "11:30 AM",
         "location": "Lawrence Hall of Science, Berkeley ",
@@ -109,7 +109,7 @@ var discoverData = window.discoverData = [
     },
     {
         "name": "Vidcode Teen Girl Hackathon",
-        "url": "www.coderdojonyc.org/blog/2015/2/26/spring-2015-events",
+        "url": "https://www.coderdojonyc.org/blog/2015/2/26/spring-2015-events",
         "date": "4/25/2015",
         "time": "n/a",
         "location": "NYC, NY",
