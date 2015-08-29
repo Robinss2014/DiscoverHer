@@ -75,10 +75,10 @@ body {
 ------------------------- */
 
 .featurette-divider {
-  margin: 80px 0; /* Space out the Bootstrap <hr> more */
+  margin: 50px 0; /* Space out the Bootstrap <hr> more */
 }
 .featurette {
-  padding-top: 120px; /* Vertically center images part 1: add padding above and below text. */
+  padding-top: 20px; /* Vertically center images part 1: add padding above and below text. */
   overflow: hidden; /* Vertically center images part 2: clear their floats. */
 }
 .featurette-image {
@@ -125,9 +125,8 @@ body {
   padding: 1px;
 }
 
-
 .selected{
-  border: .2em solid #CB1507;
+  border: .2em solid #00FFFF;
 }
 
 /* RESPONSIVE CSS
