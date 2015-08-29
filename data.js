@@ -1,4 +1,4 @@
-var events = window.events = [
+var discoverData = window.discoverData = [
     {
         "name": "Lead the Way Convention",
         "url": "www.girlscoutsnorcal.org/girls/leadership/lead-the-way-m",
@@ -203,7 +203,28 @@ var aspireData = window.aspireData = [
 ];
 
 $(function(){
-    var template = $('#template').html();
-    var html = Mustache.render(template, events);
-    $('#target').html(html);
+
+  $('#discoverList img').click(function(){
+
+  	  $('#aspireList img').removeClass('selected');
+      $('#discoverList img').addClass('selected');
+     loadDiscoverData();
+  });
+
+  $('#aspireList img').click(function(){
+  	  $('#discoverList img').removeClass('selected');
+      $('#aspireList img').addClass('selected');
+     loadAspireData();
+  });
+
+ function loadDiscoverData(){
+ 	 var template = $('#discover-template').html();
+     var html = Mustache.render(template, discoverData);
+     $('#target').html(html);
+ }
+ function loadAspireData(){
+ 	 var template = $('#aspire-template').html();
+     var html = Mustache.render(template, aspireData);
+     $('#target').html(html);
+ }
 });

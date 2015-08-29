@@ -48,7 +48,7 @@
   </ol>
   <div class="carousel-inner">
     <div class="item active">
-      <img href = "#b" src="https://m2.behance.net/rendition/pm/14309319/disp/f9318c0a17151b9cacb1e7a125223abf.png" style="width:100%" class="img-responsive">
+      <img href = "#c" src="https://m2.behance.net/rendition/pm/14309319/disp/f9318c0a17151b9cacb1e7a125223abf.png" style="width:100%" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
           <h1>Discover</h1>
@@ -57,7 +57,7 @@
       </div>
     </div>
     <div class="item">
-      <img href = "#b" src="http://robertjrgraham.com/wp-content/uploads/2011/12/Reach-For-Stars2.jpg" class="img-responsive">
+      <img href = "#c" src="http://robertjrgraham.com/wp-content/uploads/2011/12/Reach-For-Stars2.jpg" class="img-responsive">
       <div class="container">
         <div class="carousel-caption">
           <h1>Aspire</h1>
@@ -94,15 +94,15 @@
 
   <!-- Three columns of text below the carousel -->
   <div class="row">
-    <div class="col-md-4 text-center">
-			<a href="#a">
+    <div class="col-md-4 text-center" id="discoverList">
+			<a href="#discoverData">
       	<img class="pic-orient" src="http://i2.wp.com/erinlanahanmethod.com/wp-content/uploads/5931171740_14fea8385d_z1.jpg">
       </a>
 			<h2>Discover</h2>
       <p>Find upcoming events for women</p>
     </div>
-    <div class="col-md-4 text-center">
-			<a href="#b">
+    <div class="col-md-4 text-center" id="aspireList">
+			<a href="#AspireData">
       	<img class="pic-orient" src="http://robertjrgraham.com/wp-content/uploads/2011/12/Reach-For-Stars2.jpg">
       </a>
 			<h2>Aspire</h2>
@@ -121,15 +121,37 @@
   
   <!-- START THE FEATURETTES -->
   <hr class="featurette-divider" id="">
+  <div id="title"></div>
   <div id="target">Loading..</div>
-  <script id="template" type="x-tmpl-mustache">
+  <script id="discover-template" type="x-tmpl-mustache">
   {{#.}}
-    <div class="featurette">
-        <a href="{{url}}">
-        <img class="feature-orient" src="{{image}}">
-      </a>
-      <h2 class="featurette-heading">{{name}}: <span class="text-muted small">{{location}}</span></h2>
-      <p class="lead">{{keywords}}</p>
+    <div class="row featurette">
+      <div class="col-md-3 col-md-offset-1">
+        <a  target="_blank" href="{{url}}">
+          <img class="feature-orient" src="{{image}}">
+        </a>
+      </div>
+      <div class="col-md-6">
+        <h2 class="featurette-heading">{{name}}: <span class="text-muted small">{{location}}</span></h2>
+        <p class="lead">{{keywords}}</p>
+      </div>
+    </div>
+    <hr class="featurette-divider">
+  {{/.}}
+  </script>
+
+  <script id="aspire-template" type="x-tmpl-mustache">
+  {{#.}}
+    <div class="row featurette">
+      <div class="col-md-3 col-md-offset-1">
+        <a  target="_blank" href="{{url}}">
+          <img class="feature-orient" src="{{image}}">
+        </a>
+      </div>
+      <div class="col-md-6">
+        <h2 class="featurette-heading">{{title}}</h2>
+        <p class="lead">{{description}}</p>
+      </div>
     </div>
     <hr class="featurette-divider">
   {{/.}}

@@ -126,6 +126,10 @@ body {
 }
 
 
+.selected{
+  border: .2em solid #CB1507;
+}
+
 /* RESPONSIVE CSS
 -------------------------------------------------- */
 
