@@ -182,7 +182,7 @@ var events = window.events = [
 ]
 
 $(function(){
-    var events = $('#template').html();
-    var html = Mustache.render(template, data);
+    var template = $('#template').html();
+    var html = Mustache.render(template, events);
     $('#target').html(html);
 });
