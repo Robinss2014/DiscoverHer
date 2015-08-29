@@ -4,7 +4,7 @@ var discoverData = window.discoverData = [
         "url": "https://www.girlscoutsnorcal.org/girls/leadership/lead-the-way-m",
         "date": "Jan 29-36, 2016",
         "time": "n/a",
-        "location": "Milpidas, CA",
+        "location": "Milpitas, CA",
         "keywords": "girl scouts, leadership, convention",
         "image": "http://www.girlscoutsla.org/images/other/CEO_Blog/National_Mentoring_Month_GSGLA_CEO_Blog.jpg"
     },
